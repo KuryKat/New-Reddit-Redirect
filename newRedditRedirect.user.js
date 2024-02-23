@@ -9,8 +9,8 @@
 // @exclude     *://*.reddit.com/gallery/*
 // @exclude     *://*.reddit.com/media*
 // @run-at      document-start
-// @updateURL   https://github.com/KuryKat/New-Reddit-Redirect/raw/main/oldRedditRedirect.user.js
-// @downloadURL https://github.com/KuryKat/New-Reddit-Redirect/raw/main/oldRedditRedirect.user.js
+// @updateURL   https://github.com/KuryKat/New-Reddit-Redirect/raw/main/newRedditRedirect.user.js
+// @downloadURL https://github.com/KuryKat/New-Reddit-Redirect/raw/main/newRedditRedirect.user.js
 // @grant       none
 // ==/UserScript==
 
