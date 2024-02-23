@@ -1,3 +1,6 @@
+> [!NOTE]
+> Forked from https://github.com/RichKMLS/Old-Reddit-Redirect
+
 # New Reddit Redirect
 
 This is a user script that automatically redirects you to new.reddit.com when you visit any reddit.com page. It works on any browser that supports user scripts, such as Tampermonkey or Greasemonkey.
