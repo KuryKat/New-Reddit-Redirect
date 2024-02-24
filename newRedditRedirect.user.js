@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        New Reddit Redirect
-// @version     1.0.3
+// @version     1.0.4
 // @description Redirects you to new.reddit.com
 // @author      github.com/KuryKat
 // @match       *://*.reddit.com/*
@@ -21,13 +21,13 @@
 const currentUrl = window.location.href;
 
 // Declare constant for new reddit URL
-const newRedditUrl = 'http://new.reddit.com/';
+const newRedditUrl = 'http://new.reddit.com';
 
 // Check if the current URL does not include new.reddit.com
 if (!currentUrl.includes("new.reddit.com")) {
 
   // Use regex literal and constant for new URL
-  const newUrl = currentUrl.replace(/^https?:\/\/(.*?\.)?reddit.com\//, newRedditUrl);
+  const newUrl = currentUrl.replace(/^https?:\/\/(.*?\.)?reddit.com/, newRedditUrl);
 
   // Redirect to new URL without history entry
   window.location.replace(newUrl);
