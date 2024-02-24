@@ -24,7 +24,7 @@ const currentUrl = window.location.href;
 const newRedditUrl = 'http://new.reddit.com/';
 
 // Check if the current URL does not include new.reddit.com
-if (!currentUrl.includes(newRedditUrl)) {
+if (!currentUrl.includes("new.reddit.com")) {
 
   // Use regex literal and constant for new URL
   const newUrl = currentUrl.replace(/^https?:\/\/(.*?\.)?reddit.com\//, newRedditUrl);
