@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        New Reddit Redirect
-// @version     1.0.0
+// @version     1.0.1
 // @description Redirects you to new.reddit.com
 // @author      github.com/KuryKat
 // @match       *://*.reddit.com/*
