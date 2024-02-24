@@ -27,7 +27,7 @@ const newRedditUrl = 'new.reddit.com';
 if (!currentUrl.includes(newRedditUrl)) {
 
   // Use regex literal and constant for new URL
-  const newUrl = currentUrl.replace(/(www\.)?reddit\.com/, newRedditUrl);
+  const newUrl = currentUrl.replace(/^https?:\/\/(.*?\.)?reddit.com\//, newRedditUrl);
 
   // Redirect to new URL without history entry
   window.location.replace(newUrl);
