@@ -27,7 +27,7 @@ const newRedditUrl = 'http://new.reddit.com';
 if (!currentUrl.includes("new.reddit.com")) {
 
   // Avoid redirect when not logged in (fix infinite reloads)
-  if(document.getElementById("login-button") != null) {
+  if (document.getElementById("login-button") != null) {
     return;
   }
 
