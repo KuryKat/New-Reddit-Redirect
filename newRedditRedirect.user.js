@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name        New Reddit Redirect
-// @version     1.1.0
+// @version     1.1.1
 // @description Redirects you to new.reddit.com
 // @author      github.com/KuryKat
 // @match       *://*.reddit.com/*
 // @exclude     /^https?://[a-z]{2}\.reddit\.com/*
+// @exclude     *://*.reddit.com/account/*
 // @exclude     *out.reddit.com/*
 // @exclude     *://*.reddit.com/gallery/*
 // @exclude     *://*.reddit.com/media*
