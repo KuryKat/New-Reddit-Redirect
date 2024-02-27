@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        New Reddit Redirect
-// @version     1.1.3
+// @version     1.1.4
 // @description Redirects you to new.reddit.com
 // @author      github.com/KuryKat
 // @match       *://*.reddit.com/*
@@ -12,6 +12,7 @@
 // @exclude     *://*.reddit.com/users*
 // @exclude     *://*.reddit.com/ads*
 // @exclude     *://ads.reddit.com/*
+// @exclude     *://chat.reddit.com/*
 // @run-at      document-start
 // @updateURL   https://github.com/KuryKat/New-Reddit-Redirect/raw/main/newRedditRedirect.user.js
 // @downloadURL https://github.com/KuryKat/New-Reddit-Redirect/raw/main/newRedditRedirect.user.js
